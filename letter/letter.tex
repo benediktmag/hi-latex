@@ -1,0 +1,52 @@
+\documentclass[11pt,icelandic,a4paper]{letter}
+\usepackage[utf8]{inputenc}
+\usepackage{t1enc}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage{lipsum}
+\usepackage{mdwlist}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{babel}
+\selectlanguage{english}
+\hypersetup{colorlinks=false}
+\usepackage{wallpaper}
+
+\ThisULCornerWallPaper{1}{hi-audkenni_40-raunvisst_en-mod.png}
+% If you put the header in e.g. ~/Templates you can use the following:
+%\ThisULCornerWallPaper{1}{\string~/Templates/hi-audkenni_40-raunvisst_en-mod.png}
+
+% VARIABLES
+\def\NAME{nafn}
+\def\TITLE{titill}
+\def\TEL{525 4000}
+\def\EMAIL{nafn@hi.is}
+
+\signature{\begin{center}
+	\includegraphics[width=7cm]{undirskrift.png}
+    % If you put the signature in e.g. ~/Templates you can use the following:
+	%\includegraphics[width=7cm]{\string~/Templates/undirskrift.png}
+\end{center}
+\NAME,\\
+\TITLE 
+}
+\address{\NAME\\
+Science Institute\\
+University of Iceland\\
+Dunhaga 5,\\
+107 Reykjavik, Iceland\\
++354 \TEL
+\href{mailto:\EMAIL}{\EMAIL}\\
+}
+\begin{document}
+\begin{letter}{}
+\opening{Dear RECIPIENT,}
+
+% MAIN
+\lipsum[1]
+
+\flushright\closing{With best regards,}
+\end{letter}
+\end{document}

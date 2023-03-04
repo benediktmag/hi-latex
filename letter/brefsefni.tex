@@ -1,0 +1,48 @@
+ \documentclass[11pt,icelandic,a4paper]{letter}
+\usepackage[utf8]{inputenc}
+\usepackage{t1enc}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage{lipsum}
+\usepackage{mdwlist}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{babel}
+\selectlanguage{icelandic}
+\hypersetup{colorlinks=false}
+\usepackage{wallpaper}
+%\ULCornerWallPaper{1}{raunvis_brefsefni}
+\ThisULCornerWallPaper{1}{hi-audkenni_40-raunvisst-mod.png}
+%\ThisULCornerWallPaper{1}{raunvis_brefsefni}
+
+% VARIABLES
+\def\NAME{nafn}
+\def\TITLE{titill}
+\def\TEL{525 4000}
+\def\EMAIL{nafn@hi.is}
+
+\signature{\begin{center}
+	\includegraphics[width=7cm]{undirskrift.png}
+\end{center}
+\NAME,\\
+\TITLE 
+}
+\address{\NAME\\
+Raunvísindastofnun Háskólans\\
+Dunhaga 5,\\
+107 Reykjavik\\
+\href{mailto:\EMAIL}{\EMAIL}\\
+\TEL
+}
+\begin{document}
+\begin{letter}{}
+\opening{Hæstvirtur viðtakandi,}
+
+% MEGINMÁL
+\lipsum[1]
+
+\flushright\closing{Með vinsemd og virðingu,}
+\end{letter}
+\end{document}
