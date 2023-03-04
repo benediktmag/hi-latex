@@ -13,4 +13,9 @@ Best er að setja hausinn og undirskriftina á möppu sem geymir sniðmát (t.d.
 
 Merki fyrir fleiri stofnanir, deildir og svið má finna hér, https://honnun.hi.is/5afb7ec03/p/191b65-myndmerki-h/b/612d94
 
+![Skjáskot](brefsefni.png)
+
 # Letterhead
+
+
+![Screenshot](letter.png)
