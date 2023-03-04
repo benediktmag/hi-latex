@@ -1,6 +1,6 @@
 # Bréfsefni (Raunvísindastofnun)
 
-Það er íslensk og ensk útgáfa af bréfsefni. 
+Hér eríslensk (`brefsefni.tex`) og ensk (`letter.tex`) útgáfa af bréfsefni fyrir Raunvísindastofnun. 
 
 Setja þarf rétt gildi á breyturnar
 * NAME
