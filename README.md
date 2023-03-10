@@ -2,21 +2,21 @@
 
 Sniðmát fyrir LaTeX, fylgir að mestu Hönnunarstaðli HÍ, https://honnun.hi.is
 
-## Bréfsefni (Raunvísindastofnun)
+### Bréfsefni (Raunvísindastofnun)
 
 Íslensk og ensk útgáfa, https://github.com/benediktmag/hi-latex/tree/main/letter
 
-## Glærur
+### Glærur
 
 Beamer-glærur með merki og litum HÍ, https://github.com/benediktmag/hi-latex/tree/main/slides
 
 # University of Iceland templates for LaTeX
 
-## Letterhead 
+### Letterhead 
 
 English and Icelandic versions, https://github.com/benediktmag/hi-latex/tree/main/letter
 
-## Slides
+### Slides
 
 Beamer slides with the logo and colors of the University of Iceland, https://github.com/benediktmag/hi-latex/tree/main/slides
 
