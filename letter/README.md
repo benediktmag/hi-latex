@@ -1,19 +1,22 @@
 # Bréfsefni (Raunvísindastofnun)
 
-Hér er íslensk (`brefsefni.tex`) og ensk (`letter.tex`) útgáfa af bréfsefni fyrir Raunvísindastofnun. 
+Hér er íslensk og ensk útgáfa af bréfsefni fyrir Raunvísindastofnun. 
 
 Setja þarf rétt gildi á breyturnar
 * NAME
-* TITLE
+* TITLE (fyri íslensku útgáfuna)
+* TITLEENG (fyrir ensku útgáfuna)
 * TEL
 * EMAIL
 og skipta undirskrift.png út fyrir rétta undirskrift.
+
+Fyrir íslenska útgáfu þarf að setja ICELANDIC breytuna sem `true`, en `false` fyrir enska útgáfu.
 
 Best er að setja hausinn og undirskriftina á möppu sem geymir sniðmát (t.d. ~/Templates) og breyta tilsvarandi línum, þá er nóg að hafa eitt eintak af hausnum og undirskriftinni og óþarfi að afrita þær skrár í allar möppur. 
 
 Merki fyrir fleiri stofnanir, deildir og svið má finna hér, https://honnun.hi.is/5afb7ec03/p/191b65-myndmerki-h/b/612d94
 
-![Skjáskot](brefsefni.png)
+![Skjáskot](letter_is.png| width=100)
 
 # Letterhead
 
@@ -30,4 +33,4 @@ It is best to put the header and signature in a folder that stores templates (e.
 
 Logos for more institutions, departments and schools can be found here, https://honnun.hi.is/5afb7ec03/p/191b65-myndmerki-h/b/612d94
 
-![Screenshot](letter.png)
+![Screenshot](letter_en.png)
