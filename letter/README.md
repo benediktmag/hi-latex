@@ -1,4 +1,4 @@
-# Bréfsefni (Raunvísindastofnun)
+# Bréfsefni (Raunvísindastofnun HÍ)
 
 Hér er íslensk og ensk útgáfa af bréfsefni fyrir Raunvísindastofnun. 
 
@@ -18,7 +18,7 @@ Merki fyrir fleiri stofnanir, deildir og svið má finna hér, https://honnun.hi
 
 ![Skjáskot](letter_is.png)
 
-# Letterhead
+# Letterhead (Science Institute - University of Iceland)
 
 Here is an Icelandic and English versions of a letter material for The Science Institute.
 
