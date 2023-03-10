@@ -4,18 +4,19 @@ Sniðmát fyrir LaTeX, fylgir að mestu Hönnunarstaðli HÍ, https://honnun.hi.
 
 ## Bréfsefni (Raunvísindastofnun)
 
-https://github.com/benedikt/hi-latex/letter
+https://github.com/benediktmag/hi-latex/tree/main/letter
 
 ## Glærur
 
-https://github.com/benedikt/hi-latex/slides
+https://github.com/benediktmag/hi-latex/tree/main/slides
 
 # University of Iceland templates for LaTeX
 
 ## Letterhead 
 
-https://github.com/benedikt/hi-latex/letter
+https://github.com/benediktmag/hi-latex/tree/main/letter
 
 ## Slides (beamer)
 
-https://github.com/benedikt/hi-latex/slides
+https://github.com/benediktmag/hi-latex/tree/main/slides
+
