@@ -60,8 +60,11 @@
 \begin{document}
 \iftoggle{WIDE}{
     \usebackgroundtemplate{\includegraphics[width=\paperwidth]{front169.png}}
+% If you put background images in e.g. ~/Templates you can use the following:
+ %   \usebackgroundtemplate{\includegraphics[width=\paperwidth]{\string~/Templates/front169.png}}
 }{
     \usebackgroundtemplate{\includegraphics[width=\paperwidth]{front43.png}}
+%    \usebackgroundtemplate{\includegraphics[width=\paperwidth]{\string~/Templates/front43.png}}
 }
 
 
@@ -72,7 +75,8 @@
 \thispagestyle{empty}
 \end{frame}
 
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{slide.png}}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{background.png}}
+%\usebackgroundtemplate{\includegraphics[width=\paperwidth]{\string~/Templates/background.png}}
 
 \begin{frame}
     \begin{block}{Block}
