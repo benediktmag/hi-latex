@@ -1,8 +1,10 @@
 % Author: Benedikt Steinar Magnusson <bsm@hi.is>
 % https://github.com/benediktmag/hi-latex/letter
 % CC-BY-SA 4.0
+
 \documentclass[11pt,icelandic,a4paper]{letter}
 \usepackage[utf8]{inputenc}
+\usepackage{etoolbox}
 \usepackage{t1enc}
 \usepackage{multicol}
 \usepackage{amsmath}
@@ -12,20 +14,30 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{hyperref}
-\usepackage{babel}
-\selectlanguage{english}
+\usepackage[icelandic,english]{babel}
 \hypersetup{colorlinks=false}
 \usepackage{wallpaper}
 
-\ThisULCornerWallPaper{1}{hi-audkenni_40-raunvisst_en-mod.png}
+%%%%%%%%%%%%%%%%%%%%%
+%%%%% VARIABLES %%%%%
+\def\LANG{icelandic}
+\def\LANG{english}
+
+\providetoggle{ICELANDIC}
+\settoggle{ICELANDIC}{false}
+\def\NAME{nafn}
+\def\TITLE{titill}
+\def\TITLEENG{title}
+\def\TEL{525 4000}
+\def\EMAIL{nafn@hi.is}
+
+%%%%%%%%%%%%%%%%%%%%%%
+
+\ThisULCornerWallPaper{1}{hi-audkenni_40-raunvisst-mod.png}
 % If you put the header in e.g. ~/Templates you can use the following:
 %\ThisULCornerWallPaper{1}{\string~/Templates/hi-audkenni_40-raunvisst_en-mod.png}
 
-% VARIABLES
-\def\NAME{name}
-\def\TITLE{title}
-\def\TEL{525 4000}
-\def\EMAIL{nafn@hi.is}
+\iftoggle{ICELANDIC}{\selectlanguage{icelandic}}{\selectlanguage{english}}
 
 \signature{\begin{center}
 	\includegraphics[width=7cm]{undirskrift.png}
@@ -33,23 +45,28 @@
 	%\includegraphics[width=7cm]{\string~/Templates/undirskrift.png}
 \end{center}
 \NAME,\\
-\TITLE 
+\TITLE
 }
-\address{\NAME\\
+\address{\iftoggle{ICELANDIC}{\NAME\\Raunvísindastofnun Háskólans\\
+Dunhaga 5,\\
+107 Reykjavik\\
+\href{mailto:\EMAIL}{\EMAIL}\\
+\TEL}{\NAME\\
 Science Institute\\
 University of Iceland\\
 Dunhaga 5,\\
 107 Reykjavik, Iceland\\
-+354 \TEL
++354 \TEL\\
 \href{mailto:\EMAIL}{\EMAIL}\\
+}
 }
 \begin{document}
 \begin{letter}{}
-\opening{Dear RECIPIENT,}
+    \opening{\iftoggle{ICELANDIC}{Hæstvirtur viðtakandi,}{To whom it concerns,}}
 
-% MAIN
+% MEGINMÁL
 \lipsum[1]
 
-\flushright\closing{With best regards,}
+\flushright\closing{\iftoggle{ICELANDIC}{Með vinsemd og virðingu,}{With best regards,}}
 \end{letter}
 \end{document}
