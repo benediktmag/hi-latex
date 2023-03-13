@@ -16,3 +16,6 @@ Beamer-glærur með merki og litum HÍ, https://github.com/benediktmag/hi-latex/
 
 Overleaf: https://www.overleaf.com/read/dgkfwqpccfzf
 
+### Ritgerðir
+
+Sniðmát fyrir ritgerðir er að finna á Uglu: https://ugla.hi.is/kerfi/view/page.php?sid=3996
