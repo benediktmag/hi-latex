@@ -1,6 +1,6 @@
 # HÍ sniðmát fyrir LaTeX
 
-English version of this: [README_en.md](https://github.com/benediktmag/hi-lates/tree/main/README_en.md)
+English version of this: [README_en.md](https://github.com/benediktmag/hi-lates/blob/main/README_en.md)
 
 Sniðmát fyrir LaTeX, fylgir að mestu Hönnunarstaðli HÍ, https://honnun.hi.is
 
