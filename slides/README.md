@@ -1,6 +1,6 @@
 # Beamer-glærur fyrir Háskóla Íslands
 
-English version of this file: [README_en.md](https://github.com/benediktmag/hi-lates/tree/main/slides/README_en.md)
+English version of this file: [README_en.md](English version of this: [README_en.md](https://github.com/benediktmag/hi-latex/blob/main/slides/README_en.md)
 
 Fylla þarf út eftirfarandi breytur
 * `NAME`
