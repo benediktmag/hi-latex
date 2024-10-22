@@ -50,8 +50,8 @@
 % LETTERHEAD
 % Use hi address if HEAD is hi, raunvis if HEAD is raunvis, von otherwise
 \ifthenelse{\equal{\HEAD}{hi}}{\def\HEADADDRESS{hi}}{\ifthenelse{\equal{\HEAD}{raunvis}}{\def\HEADADDRESS{raunvis}}{\def\HEADADDRESS{von}}}%
-\ThisURCornerWallPaper{0.5}{letterheads/address-\HEADADDRESS\iftoggle{ICELANDIC}{}{_en}.png}
-\ThisULCornerWallPaper{0.77}{letterheads/\HEAD\iftoggle{ICELANDIC}{}{_en}.png}
+\ThisURCornerWallPaper{0.5}{\PATH/address-\HEADADDRESS\iftoggle{ICELANDIC}{}{_en}.png}
+\ThisULCornerWallPaper{0.77}{\PATH/\HEAD\iftoggle{ICELANDIC}{}{_en}.png}
 
 \providetoggle{ICELANDIC}
 \ifthenelse{\equal{\LANG}{icelandic}}{\settoggle{ICELANDIC}{true}}{\settoggle{ICELANDIC}{false}}
@@ -74,7 +74,7 @@
 }
 \begin{document}
 \begin{letter}{}
-    \opening{\iftoggle{ICELANDIC}{Hæstvirtur viðtakandi,}{To whom it concerns,}}
+    \opening{\iftoggle{ICELANDIC}{Til þess er málið varðar,}{To whom it concerns,}}
 
 % MAIN
 \lipsum[1]
